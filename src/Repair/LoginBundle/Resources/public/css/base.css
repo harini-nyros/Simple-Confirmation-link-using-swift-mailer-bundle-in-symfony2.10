@@ -1,0 +1,18 @@
+.form-inline div
+{
+	height:40px;
+}
+.form-inline input
+{
+	height:28px;
+}
+#form_note
+{
+	width:700px;
+	height:400px;
+        -webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #D3D3D3;
+	padding: 5px;
+
+}

@@ -1,0 +1,26 @@
+label
+{
+	width:94px;
+	float:left;
+}
+li
+{
+	list-style-type:none;
+	color:red;
+} 
+.ele
+{
+	height:285px;
+	
+}
+.ele input
+{
+	height:25px;
+	width:185px;
+}
+ul
+{
+	margin-right: -58px;
+	margin-top: 0px;
+	float: right;
+}

@@ -1,0 +1,15 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_name: creditrepair
+    database_user: root
+    database_password: root
+    database_port: '3006'
+    mailer_transport: gmail
+    mailer_host:  ~ 
+    mailer_user:       haribangari23	
+    mailer_password:   23haribangari
+    locale: en
+    secret: 410ca8510698719103e7961b571061c75af9
+
+   

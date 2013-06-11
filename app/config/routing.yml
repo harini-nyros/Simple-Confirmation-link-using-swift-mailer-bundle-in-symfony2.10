@@ -1,0 +1,18 @@
+repair_store:
+    resource: "@RepairStoreBundle/Resources/config/routing.php"
+    prefix:   /
+index:
+    pattern:   /home
+    defaults:  { _controller:RepairLoginBundle:home:home}
+login:
+    pattern:   /clilogin
+    defaults:  { _controller:RepairLoginBundle:Login:login}
+clientreg:
+    pattern:   /clientregistration
+    defaults:  { _controller:RepairregisterBundle:register:client}
+affliatereg:
+    pattern:   /affliateregistration
+    defaults:  { _controller:RepairregisterBundle:registeraffliate:affliate}
+confirmation:
+   pattern:   /confirmation
+   defaults:  { _controller:RepairregisterBundle:confirmation:confirm}
